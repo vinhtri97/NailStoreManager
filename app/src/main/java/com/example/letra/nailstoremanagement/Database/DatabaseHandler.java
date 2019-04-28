@@ -101,7 +101,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         // create new tables
         onCreate(db);
     }
-//aa
+
     public List<Nail_Skill> getNailSkills(){
         List<Nail_Skill> nail_skills = new ArrayList<Nail_Skill>();
         SQLiteDatabase db = this.getReadableDatabase();
