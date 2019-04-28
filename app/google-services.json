@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "952514749472",
+    "firebase_url": "https://creditcardscanner-343fd.firebaseio.com",
+    "project_id": "creditcardscanner-343fd",
+    "storage_bucket": "creditcardscanner-343fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952514749472:android:1f94a148cf6645d2",
+        "android_client_info": {
+          "package_name": "com.example.letra.nailstoremanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952514749472-dec9pp7f9n4ermho9mch6p2rk6b7i7ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCImL4nVcg5jInhDULFbtqKcTOyn-tgV5I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

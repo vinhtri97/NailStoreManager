@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerActivities.InformationActivity">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="Full name"
+        android:id="@+id/nameEditText"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/nameEditText"
+        android:hint="Phone number"
+        android:id="@+id/phoneEditText"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneEditText"
+        android:layout_marginTop="20dp"
+        android:timePickerMode="spinner"
+        android:layout_centerHorizontal="true"
+        ></TimePicker>
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timePicker"
+        android:layout_marginTop="10dp"
+        android:calendarViewShown="false"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePicker"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        >
+
+        <Button
+            android:id="@+id/continueBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/continueText"
+            android:textSize="40sp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>

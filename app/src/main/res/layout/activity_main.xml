@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/employeeBtn"
+        android:layout_width="438dp"
+        android:layout_height="105dp"
+        android:text="@string/employee"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"/>
+
+    <Button
+        android:id="@+id/customerBtn"
+        android:layout_width="438dp"
+        android:layout_height="105dp"
+        android:text="@string/customer"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:layout_below="@id/employeeBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+</RelativeLayout>

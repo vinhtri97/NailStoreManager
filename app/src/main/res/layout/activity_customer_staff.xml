@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerActivities.StaffActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/customerStaffLabel"
+        android:textAlignment="center"
+        android:text="STAFF"
+        android:textSize="50sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewStaff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customerStaffLabel"
+        app:layoutManager="android.support.v7.widget.GridLayoutManager"
+        app:spanCount="2">
+    </android.support.v7.widget.RecyclerView>
+    <FrameLayout
+        android:layout_width="84dp"
+        android:layout_height="78dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|right">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@android:color/transparent"
+            android:id="@+id/skipBtn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="16dp"
+            android:text="SKIP"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+</RelativeLayout>
